@@ -61,7 +61,7 @@ func randomLevel() int {
 	return lvl
 }
 
-// Put inserts or updates a key.
+// Put inserts key.
 func (m *Memtable) Put(key, value []byte, seq uint64) {
 	m.insert(Entry{
 		Key:       key,

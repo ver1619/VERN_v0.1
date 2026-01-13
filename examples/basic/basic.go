@@ -11,7 +11,7 @@ import (
 
 func main() {
 	fmt.Println("===================================================")
-	fmt.Println("NOTE: This is a DEMONSTRATION example (not a CLI)")
+	fmt.Println("NOTE: This is a DEMONSTRATION example")
 	fmt.Println("TectonKV v0.1 — BASIC USAGE EXAMPLE")
 	fmt.Println("===================================================")
 
@@ -43,8 +43,8 @@ func main() {
 	db.Delete([]byte("version"))
 	get(db, "version")
 
-	fmt.Println("\n[INFO] No SSTable is expected here (memtable not full)")
-	fmt.Println("\nExample completed successfully")
+	fmt.Println("\n[INFO] No SSTable is expected here (memtable is not full)")
+	fmt.Println("\nExample completed")
 }
 
 func put(db *engine.Engine, k, v string) {

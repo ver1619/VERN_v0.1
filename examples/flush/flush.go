@@ -11,7 +11,7 @@ import (
 
 func main() {
 	fmt.Println("===================================================")
-	fmt.Println("NOTE: This is a DEMONSTRATION example (not a CLI)")
+	fmt.Println("NOTE: This is a DEMONSTRATION example")
 	fmt.Println("TectonKV v0.1 — MEMTABLE FLUSH EXAMPLE")
 	fmt.Println("===================================================")
 

@@ -156,7 +156,7 @@ func (e *Engine) Close() error {
 }
 
 // Get returns the latest value for a key.
-// If the key is deleted or not found, found=false is returned.
+// If the key is deleted or not found, found = false(not found) is returned.
 func (e *Engine) Get(key []byte) ([]byte, bool, error) {
 	e.mu.Lock()
 	defer e.mu.Unlock()

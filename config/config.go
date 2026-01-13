@@ -15,7 +15,7 @@ type Config struct {
 func DefaultConfig(dataDir string) Config {
 	return Config{
 		DataDir:           dataDir,
-		MemtableSizeBytes: 2 * 1024 * 1024, // 2MB default
+		MemtableSizeBytes: 2 * 1024 * 1024, // 2MB (default)
 	}
 }
 

@@ -6,6 +6,7 @@ import (
 	"tecton_kv/wal"
 )
 
+// WAL Test
 func TestWALAppendAndReplay(t *testing.T) {
 	dir := t.TempDir()
 

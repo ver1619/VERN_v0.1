@@ -112,7 +112,7 @@ func Write(path string, entries []Entry) error {
 	return f.Sync()
 }
 
-// Open opens an SSTable for reading.
+// Open opens an SSTable for read.
 func Open(path string) (*SSTable, error) {
 	f, err := os.Open(path)
 	if err != nil {

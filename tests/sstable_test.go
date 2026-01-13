@@ -7,6 +7,7 @@ import (
 	"tecton_kv/sstable"
 )
 
+// SSTable Test
 func TestSSTableWriteAndGet(t *testing.T) {
 	dir := t.TempDir()
 	path := dir + "/test.sst"

@@ -12,7 +12,7 @@ func TestEngineCrashRecoveryFromWAL(t *testing.T) {
 	dir := t.TempDir()
 	cfg := config.DefaultConfig(dir)
 
-	// --- First run ---
+	// ---- First run ----
 	eng1, err := engine.Open(cfg)
 	if err != nil {
 		t.Fatalf("open engine: %v", err)

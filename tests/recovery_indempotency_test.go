@@ -7,6 +7,7 @@ import (
 	"tecton_kv/engine"
 )
 
+// Recovery Test
 func TestRecoveryIsIdempotent(t *testing.T) {
 	dir := t.TempDir()
 	cfg := config.DefaultConfig(dir)

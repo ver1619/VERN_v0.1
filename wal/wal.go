@@ -12,7 +12,7 @@ const (
 	recordDelete byte = 2
 )
 
-// WAL represents a write-ahead log.
+// WAL (Write-Ahead Log)
 type WAL struct {
 	file *os.File
 }
