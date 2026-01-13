@@ -1,3 +1,3 @@
 # TECTON v0.1
 
-### Developed by SWAYAM
+### Developed by SWAYAM.R.VERNEKAR

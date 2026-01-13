@@ -17,7 +17,7 @@ db/
 *.cover
 coverage.out
 
-# Editor / OS noise
+# Editor / OS junk
 .vscode/
 .idea/
 *.swp

@@ -1,3 +1,3 @@
 module tecton_kv
 
-go 1.22
+go 1.23
