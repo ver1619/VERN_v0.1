@@ -10,7 +10,7 @@
 /bin/
 pkg/
 
-# Database runtime data
+# runtime data
 db/
 
 # Coverage & test artifacts
