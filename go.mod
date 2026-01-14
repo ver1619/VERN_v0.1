@@ -1,3 +1,3 @@
 module vern_kv
 
-go 1.23
+go 1.22
