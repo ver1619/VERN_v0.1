@@ -73,9 +73,11 @@ VernKV v0.1 provides the following guarantees:
 The following are intentionally out of scope for v0.1:
 
 - Compaction
-- WAL truncation
+- WAL segmentation & truncation
 - Bloom filters
-- Range scans / iterators
+- Range scans / Prefix scans
+- iterators / merge iterators / internal keys
+- Manifest / Metadata Update
 - Concurrency beyond a single writer
 - CLI interface
 
