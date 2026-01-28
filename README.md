@@ -100,6 +100,13 @@ Usage is demonstrated through runnable examples:
 - `examples/recovery` — crash recovery via WAL replay
 - `examples/flush` — memtable flush to immutable SSTables
 
+Examples can be run with:
+```go
+go run examples/basic/basic.go
+go run examples/flush/flush.go
+go run examples/recovery/recovery.go
+```
+
 ## Project Scope (v0.1):
 VernKV v0.1 is a correctness-focused educational storage engine.
 Its primary goal is to demonstrate how real-world storage guarantees
